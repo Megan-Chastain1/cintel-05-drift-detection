@@ -23,7 +23,12 @@ authors:
 repository-code: "https://github.com/denisecase/cintel-05-drift-detection"
 url: "https://github.com/denisecase/cintel-05-drift-detection"
 license: MIT
+ - family-names: Chastain
+    given-names: Megan
+    affiliation: "Northwest Missouri State University, USA"
 
+repository-code: "https://github.com/Megan-Chastain1/cintel-05-drift-detection"
+url: "https://megan-chastain1.github.io/cintel-05-drift-detection/"
 abstract: |
   Continuous Intelligence Example Project 5 - Drift Detection.
   Demonstrates professional Python project structure and workflows.
