@@ -1,0 +1,13 @@
+field_name,field_value
+reference_avg_requests,142.375
+reference_avg_errors,3.875
+reference_avg_latency_ms,4543.75
+current_avg_requests,189.46428571428572
+current_avg_errors,6.25
+current_avg_latency_ms,6232.142857142857
+requests_mean_difference,47.09
+errors_mean_difference,2.38
+latency_mean_difference_ms,1688.39
+requests_is_drifting_flag,True
+errors_is_drifting_flag,False
+latency_is_drifting_flag,True

@@ -142,3 +142,20 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+
+## Custom Project
+
+### Dataset
+- I added more numbers to the example data.
+
+### Signals
+- We used threshold signals.
+
+### Experiments
+- I changed the threshold numbers.
+
+### Results
+- The "errors_is_drifting" flag became false.
+
+### Interpretation
+- This means the error rate has stabalized. This is good news for the system as it will require no monitoring for errors.

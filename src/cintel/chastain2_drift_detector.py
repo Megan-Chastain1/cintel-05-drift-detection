@@ -66,11 +66,11 @@ ROOT_DIR: Final[Path] = Path.cwd()
 DATA_DIR: Final[Path] = ROOT_DIR / "data"
 ARTIFACTS_DIR: Final[Path] = ROOT_DIR / "artifacts"
 
-REFERENCE_FILE: Final[Path] = DATA_DIR / "reference_metrics_case.csv"
-CURRENT_FILE: Final[Path] = DATA_DIR / "current_metrics_case.csv"
+REFERENCE_FILE: Final[Path] = DATA_DIR / "reference_metrics_chastain.csv"
+CURRENT_FILE: Final[Path] = DATA_DIR / "current_metrics_chastain.csv"
 
-OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_chastain.csv"
-SUMMARY_LONG_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_long_chastain.csv"
+OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_chastain2.csv"
+SUMMARY_LONG_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_long_chastain2.csv"
 
 # === DEFINE THRESHOLDS ===
 
@@ -83,8 +83,8 @@ SUMMARY_LONG_FILE: Final[Path] = ARTIFACTS_DIR / "drift_summary_long_chastain.cs
 # In this example, we compare current metrics to a reference period
 # and flag drift when the difference exceeds these thresholds:
 
-REQUESTS_DRIFT_THRESHOLD: Final[float] = 5.0
-ERRORS_DRIFT_THRESHOLD: Final[float] = 2.0
+REQUESTS_DRIFT_THRESHOLD: Final[float] = 10.0
+ERRORS_DRIFT_THRESHOLD: Final[float] = 5.0
 LATENCY_DRIFT_THRESHOLD: Final[float] = 1000.0
 
 # === DEFINE THE MAIN FUNCTION ===
